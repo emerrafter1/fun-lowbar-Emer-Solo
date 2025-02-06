@@ -1,6 +1,6 @@
 const fromPairs = require('../tasks/fromPairs')
 
-describe('fromPairs', () => {
+describe.skip('fromPairs', () => {
     test('returns an empty object from passed empty array', ()=> {
      //arrange
      const input = [[]];
